@@ -1,0 +1,25 @@
+filename: downstream/run_downstream.py
+
+arguments: 
+  # General settings
+  seed: 1234
+
+  # Dataset settings
+  dataset: pods
+  real_data_root: ./data/pods
+
+  # Evaluation configuration
+  checkpoint_dir: ./outputs/full_train_eval_ds_dreambooth_llm_masked_filtered_sd1.5_cfg_5.0_model_dinov2_vitb14_train_lora_synth_num_450_triplet_num_4500_ref_real_loss_info_nce_fixed_aug_True_patch_tokens_seed_1234/totes_paris_2024/train_outputs/lightning_logs/version_0/
+  eval_models: custom_lora_dinov2_vitb14,dinov2_vitb14
+  eval_epoch: 2
+
+  # Downstream task settings
+  downstream_tasks: global_tasks,dense_tasks
+  downstream_batch_size: 2
+  downstream_workers: 16
+
+  # Dataset info (optional)
+  dataset_info: ./data/pods/pods_info.json
+
+sweep_args:
+  pos_class_name: ["totes_paris_2024", "totes_switzerland", "totes_blank"]

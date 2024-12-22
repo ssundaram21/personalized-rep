@@ -1,0 +1,3 @@
+diffusers==0.31.0
+dreamsim==0.2.1
+bitsandbytes

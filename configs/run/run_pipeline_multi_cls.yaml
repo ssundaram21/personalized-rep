@@ -1,0 +1,41 @@
+filename: contrastive/main.py
+
+arguments: 
+  # General settings
+  seed: 1234
+  tag: full_train_eval
+
+  # Dataset settings
+  dataset: pods
+  real_data_root: ./data/pods
+  synthetic_train_root: ./synthetic_data/pods/dreambooth_llm_masked_filtered_sd1.5/cfg_5.0
+  negatives_root: ./synthetic_data/pods/pods_negatives
+
+  # Training configuration
+  num_triplets: 4500
+  num_synthetic: 450
+  train_model_type: dinov2_vitb14
+  train_batch_size: 16
+  train_epochs: 2
+  train_loss_fn: info_nce_fixed
+  train_augment: true
+  use_lora: true
+  patch_tokens: true
+  use_existing_triplets: true
+  train_use_existing_checkpoint: true
+
+  # Evaluation configuration
+  eval_models: custom_lora_dinov2_vitb14,dinov2_vitb14
+  eval_epoch: 2
+
+  # Downstream task settings
+  downstream_task: global_tasks,dense_tasks
+  downstream_batch_size: 2
+  downstream_workers: 16
+
+  # Dataset info (optional)
+  dataset_info: ./data/pods/pods_info.json
+
+sweep_args:
+  pos_class_name: ["totes_paris_2024", "totes_switzerland", "totes_blank"]
+

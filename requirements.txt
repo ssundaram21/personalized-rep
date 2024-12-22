@@ -1,0 +1,12 @@
+clip @ git+https://github.com/openai/CLIP.git@a1d071733d7111c9c014f024669f959182114e33
+configargparse
+open-clip-torch==2.24.0
+opencv-python==4.10.0.84
+pandas
+peft==0.12.0
+pycocotools==2.0.8
+pytorch-lightning==2.2.5
+scikit-image
+scikit-learn
+tensorboard
+torch==2.3.0
