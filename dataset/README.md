@@ -62,7 +62,8 @@ The PODS dataset is new a benchmark for personalized vision tasks. It includes:
 * 100 common household objects from 5 semantic categories
 * 4 tasks (classification, retrieval, segmentation, detection)
 * 4 test splits with different distribution shifts.
-* 12 test images per instance (3 per split).
+* 71-201 test images per instance with classification label annotations (`test` split).
+* 12 test images per instance (3 per split) with segmentation annotations (`test_dense` split).
 
 PODS is [available on HuggingFace](https://huggingface.co/datasets/chaenayo/PODS), or can be directly downloaded [here](https://data.csail.mit.edu/personal_rep/pods.zip).
 
