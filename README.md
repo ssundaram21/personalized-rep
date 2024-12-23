@@ -1,7 +1,7 @@
 # Personalized Representation from Personalized Generation
 
 <h3 align="center"><a href="https://personalized-rep.github.io" style="color: #E34F26;">Project page</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-  <a href="https://example2.com" style="color: #E34F26;">Paper</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+  <a href="#" style="color: #E34F26;">Paper</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 <a href="#citation" style="color: #2088FF;">Bibtex</a><br></h3>
 
 <p align="center">
