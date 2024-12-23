@@ -103,15 +103,15 @@ See `downstream/run_downstream.py` for a full list/description of arguments (whi
 ## Data
 
 ### The PODS Dataset
-We introduce the PODS (Personal Object Discrimination Suite) dataset, a new benchmark for personalized vision tasks. For dataset details and download, see the [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md). PODS is also on [HuggingFace](https://huggingface.co/datasets/chaenayo/PODS).
+We introduce the PODS (Personal Object Discrimination Suite) dataset, a new benchmark for personalized vision tasks. For dataset details and download, see the [dataset page](). PODS is also on [HuggingFace](https://huggingface.co/datasets/chaenayo/PODS).
 
 ### Evaluation Datasets
-To reproduce our experiments on the PODS, DF2, and/or DOGS datasets, run `dataset/download_benchmarks.sh` to download and unzip the datasets. See the [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md) for more details on dataset structure/creation, and how to set up your own dataset.
+To reproduce our experiments on the PODS, DF2, and/or DOGS datasets, run `dataset/download_benchmarks.sh` to download and unzip the datasets. See the [dataset page](https://github.com/ssundaram21/personalized-rep/tree/main/dataset) for more details on dataset structure/creation, and how to set up your own dataset.
 
 ### Synthetic datasets
 We train personalized representations by augmenting real datasets of personal instances with generated synthetic datasets. To download/unzip sample synthetic positive and negative datasets, run `dataset/download_synthetic.sh`.
 
-For a full list of synthetic datasets and download links, see our [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md).
+For a full list of synthetic datasets and download links, see our [dataset page](https://github.com/ssundaram21/personalized-rep/tree/main/dataset).
 
 #### Generating synthetic datasets
 Scripts for finetuning DreamBooth and generating synthetic data are in the `generation` directory.
