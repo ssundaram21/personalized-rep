@@ -27,7 +27,7 @@ Adapting large vision models such as CLIP, DINO, etc to personalized tasks is di
 
 A **personalized representation** is a general-purpose representation that has been specialized to a target instance, and can be flexibly applied to any downstream task involving the instance. In the same way that general representations can be applied few- or zero-shot to downstream tasks, a personalized representation of your mug (for instance) encodes knowledge about your mug and can be used to classify it, segment it, etc.
 
-We propose a framework for learning personalized representations from as little as **three images** using synthetic data. In [our paper](#link) we show that our method improves downstream performance across diverse personalized tasks.
+We propose a framework for learning personalized representations from as little as **three images** using synthetic data. In [our paper](https://arxiv.org/abs/2412.16156) we show that our method improves downstream performance across diverse personalized tasks.
 
 ## Table of Contents
 * [Requirements](#requirements)
