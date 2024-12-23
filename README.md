@@ -103,7 +103,7 @@ See `downstream/run_downstream.py` for a full list/description of arguments (whi
 ## Data
 
 ### The PODS Dataset
-We introduce the PODS (Personal Object Discrimination Suite) dataset, a new benchmark for personalized vision tasks. For dataset details and download, see the [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md). PODS is also on [HuggingFace](#).
+We introduce the PODS (Personal Object Discrimination Suite) dataset, a new benchmark for personalized vision tasks. For dataset details and download, see the [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md). PODS is also on [HuggingFace](https://huggingface.co/datasets/chaenayo/PODS).
 
 ### Evaluation Datasets
 To reproduce our experiments on the PODS, DF2, and/or DOGS datasets, run `dataset/download_benchmarks.sh` to download and unzip the datasets. See the [dataset page](https://github.com/ssundaram21/generative-synthetic/blob/release_pipeline/dataset/README.md) for more details on dataset structure/creation, and how to set up your own dataset.
