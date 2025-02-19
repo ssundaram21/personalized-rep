@@ -73,7 +73,10 @@ Metadata is stored in two files:
   * `class_to_idx`: Mapping of each class to an integer id
   * `class_to_sc`: Mapping of each class to a broad, single-word semantic category
   * `class_to_split`: Mapping of each class to the `val` or `test` split.
-* `pods_image_annos.json`: Maps every image ID to its class and test split (one of `[train, objects, pose, all]`)    
+* `pods_image_annos.json`: Maps every image ID to a dictionary:
+  * `class`: The class name that the image belongs to
+  * `split`: One of `[train, test]` indicating if the image is in the train or test set for that class.
+  * `test_split`: For images in the `test` split, denotes which distribution-shift test split the image is in: One of `[in_distribution, pose, distractors, pose_and_distractors]`
 
 ## DF2 & Dogs
 DF2 and Dogs are reformulated subsets of the [DeepFashion2](https://github.com/switchablenorms/DeepFashion2) and [DogFaceNet](https://github.com/GuillaumeMougeot/DogFaceNet) datasets to enable evaluation across the same 4 tasks as PODS.
