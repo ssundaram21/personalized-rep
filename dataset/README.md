@@ -67,9 +67,9 @@ The PODS dataset is new a benchmark for personalized vision tasks. It includes:
 
 PODS is [available on HuggingFace](https://huggingface.co/datasets/chaenayo/PODS), or can be directly downloaded [here](https://data.csail.mit.edu/personal_rep/pods.zip).
 
-PODS is split class-wise into a validation set (6 classes per semantic category) and a test set (14 classes per semantic category). All test performance reported in our paper is from the test set of classes.
+PODS is split *class-wise* into a validation set (6 classes per semantic category) and a test set (14 classes per semantic category). All test performance reported in our paper is from the test set of classes.
 
-Within each class, images are divided into a train/retrieval set (3 images) and a test/query set. The test/query set is then further divided into 4 test splits reflecting different distribution shifts.
+*Within each class*, images are divided into a train/retrieval set (3 images) and a test/query set. The test/query set is then further divided into 4 test splits reflecting different distribution shifts.
 
 Metadata is stored in two files:
 * `pods_info.json`:
