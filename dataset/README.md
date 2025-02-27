@@ -91,7 +91,7 @@ DF2 and DOGS each contain a metadata file `{dataset}_info.json` with the same in
 | **Dataset**     | **Download**    |
 |-----------------|-----------------|
 | PODS            | [HuggingFace](https://huggingface.co/datasets/chaenayo/PODS) or [Direct](https://data.csail.mit.edu/personal_rep/pods.zip) |
-| DF2             | [Mapping Notebook]   |
+| DF2             | Mapping Notebook (TBD)   |
 | DOGS            | [Direct](https://data.csail.mit.edu/personal_rep/dogs.zip)    |
 
 ## Training on your own dataset
