@@ -62,7 +62,7 @@ pip install -r requirements.txt
 ```
 
 #### 3. (optional) Download resources
-If you are planning to use CLIP or MAE, run `models/download_models.sh` to download the checkpoints into `./cache` (DINOv2 downloads automatically when running the pipeline).
+If you are planning to use CLIP or MAE, run `models/download_models.sh` to download the pretrained checkpoints into `./cache` (DINOv2 downloads automatically when running the pipeline).
 
 To download our evaluation datasets run `dataset/download_benchmarks.sh` and to download the best-performing synthetic datasets for each benchmark, run `dataset/download_synthetic.sh`. See the [data](#data) section for more information on datasets.
 
