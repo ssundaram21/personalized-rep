@@ -127,11 +127,13 @@ Then, you can run the following. See the corresponding bash scripts in `configs/
 ## Citation
 If you find our work or any of our materials useful, please cite our paper:
 ```
-@article{sundaram2024personalized,
-  title   = {Personalized Representation from Personalized Generation}
-  author  = {Sundaram, Shobhita and Chae, Julia and Tian, Yonglong and Beery, Sara and Isola, Phillip},
-  journal = {Arxiv},
-  year    = {2024},
+@inproceedings{sundaram2025personalized,
+  title={Personalized representation from personalized generation},
+  author={Sundaram, Shobhita and Chae, Julia and Tian, Yonglong and Beery, Sara and Isola, Phillip},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={92572--92606},
+  year={2025}
 }
 ```
             
